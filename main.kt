@@ -7,7 +7,7 @@ fun main() {
     
     while (true) {
         print("> ")
-        var cmd = readLine()!!.toLowerCase()
+        var cmd = readLine()!!.lowercase()
 
         if (cmd == "help") {
             println("1: Exit")
